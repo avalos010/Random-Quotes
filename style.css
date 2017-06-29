@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster|Shadows+Into+Light');
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+input[type="button"] {
+  margin: 90px;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  color:#fff;
+  background: #088da5;
+}
+input[type="button"]:focus {
+  outline: none;
+  box-shadow: 2px 2px 5px #49B6AD,-2px -2px 5px #49B6AD;
+}
+ .quoteSpace {
+  margin: 40px;
+  color: #fff;
+  
+}
+
+header {
+  background: #49B6AD;
+  height: 65px;
+ 
+  
+}
+
+h1 {
+  padding-top: 15px;
+  margin: auto;
+  color:#fff;
+  font-family: 'Indie Flower', cursive;
+}
+
+body {
+  background: linear-gradient(to bottom,#000 50%,#579 ) center fixed no-repeat;
+}
+
+.quote {
+  font-family: 'Lobster', cursive;
+  font-size: 18px;
+}
+.author {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 18px;
+}
